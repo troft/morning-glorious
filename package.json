@@ -1,0 +1,32 @@
+{
+  "name": "wakeupcall",
+  "version": "1.0.0",
+  "description": "Calls until person wakes up then gives the news, weather, and daily report",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo ‘no test yet’"
+  },
+  "keywords": [
+    "weather",
+    "news",
+    "call",
+    "Bandwidth",
+    "calendar"
+  ],
+  "author": "Jillian Troftgruben",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cnn-news": "^1.0.1",
+    "express": "^4.15.3",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^19.0.0",
+    "jquery": "^3.2.1",
+    "json-stringify": "^1.0.0",
+    "node-bandwidth": "^2.3.2",
+    "openweather-apis": "^3.3.2",
+    "openweather-node": "0.0.4",
+    "promisify": "0.0.3",
+    "stringify": "^5.1.0"
+  }
+}
