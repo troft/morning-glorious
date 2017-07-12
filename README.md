@@ -1,16 +1,16 @@
 # morning-glorious
-###The smarter wakeup call application 
+### The smarter wakeup call application 
 
 Morning glorious is a better, smarter wakeup call that allows you to feel ready for your day. This app implements many API’s including ones from Bandwidth, Google Calendar, CNN News,  and Openweather. To set the wakeup call, the user inputs what time they want to be woken up. At that time, the app continuously calls until the user answers. At that time, the app speaks a sentence that tells the user what is on their calendar, what the weather forecast is, and what the top news stories are. When the sentence is finished, the app will end the call. 
 
-##Demos 
+## Demos 
 * Making calls 
 * Audio Playback
 * Integrating Google Calendar’s API 
 * Integrating Openweather API 
 * Integrating CNN News API 
 
-##Prerequisites 
+## Prerequisites 
 * Catapult Account 
 * Google Calendar Developer Account 
 * CNN News Account 
@@ -18,7 +18,7 @@ Morning glorious is a better, smarter wakeup call that allows you to feel ready 
 * Node 8.0+ 
 * Ngrok or another port forwarding app 
 
-##Making the App
+## Making the App
 
 The first part of a wakeup call is setting up what time the app should call in the morning. To do this, the app uses a database with times. For this example, the app will call every 2 minutes. 
 
